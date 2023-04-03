@@ -28,7 +28,6 @@ export class AuthService {
         email: dto.email,
       },
     });
-    console.log(oldUser, 'old user');
 
     // Если пользователь с такой почтой существует, сообщаем об этом.
     if (oldUser)
